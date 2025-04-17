@@ -142,4 +142,42 @@ function greet(name) {
   const Car = new Function("make", "model", "this.make = make; this.model = model;");
   const car1 = new Car("Toyota", "Corolla");
   console.log(car1.make); // Toyota
+
   
+
+  age = 18
+if age >= 18:
+    print("You can vote.")
+else:
+    print("You cannot vote.")
+
+
+    int day = 3;
+switch(day) {
+  case 1: printf("Monday"); break;
+  case 2: printf("Tuesday"); break;
+  case 3: printf("Wednesday"); break;
+  default: printf("Invalid day");
+}
+
+
+for i in range(5):
+    print(i)
+
+
+    colors = ["red", "green", "blue"]
+for color in colors:
+    print(color)
+
+
+    for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+
+
+    for i in range(5):
+    if i == 2:
+        continue
+    print(i)
