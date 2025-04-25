@@ -181,3 +181,35 @@ for color in colors:
     if i == 2:
         continue
     print(i)
+
+
+    function greet(name) {
+      console.log("Hi, " + name + "!");
+    }
+    
+    greet("Alice");   // Output: Hi, Alice!
+    greet("Bob");     // Output: Hi, Bob!
+
+    
+
+    function welcome(user = "Guest") {
+      console.log("Welcome, " + user);
+    }
+    
+    welcome();         // Output: Welcome, Guest
+    welcome("Nina");   // Output: Welcome, Nina
+
+    
+    (function() {
+      console.log("This runs instantly!");
+    })();
+
+    
+    function Car(make, model) {
+      this.make = make;
+      this.model = model;
+    }
+    
+    let myCar = new Car("Toyota", "Corolla");
+    console.log(myCar.make);  // Output: Toyota
+    
