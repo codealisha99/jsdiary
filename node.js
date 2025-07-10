@@ -1,16 +1,16 @@
-// const fs = require("fs");
+const fs = require("fs");
 
-// fs.readFile("./a.txt","utf-8" , (err,data) => {
-//     if (err) throw err;
-//     console.log(data);
-// });
-// import { randomSuperhero } from "superheroes";
-// const name = randomSuperhero();
+fs.readFile("./a.txt","utf-8" , (err,data) => {
+    if (err) throw err;
+    console.log(data);
+});
+import { randomSuperhero } from "superheroes";
+const name = randomSuperhero();
 
-// import sillyname from 'sillyname';
-// var name = sillyname();
-// console.log(name);
-// console.log(`My name is ${sillyname()}.`);
+import sillyname from 'sillyname';
+var name = sillyname();
+console.log(name);
+console.log(`My name is ${sillyname()}.`);
 
 
 function greetuser(name) {
