@@ -1,28 +1,24 @@
-const fs = require("fs");
-
-fs.readFile("./a.txt","utf-8" , (err,data) => {
-    if (err) throw err;
-    console.log(data);
-});
-import { randomSuperhero } from "superheroes";
-const name = randomSuperhero();
-
-import sillyname from 'sillyname';
-var name = sillyname();
-console.log(name);
-console.log(`My name is ${sillyname()}.`);
+function timeout() {
+    console.log("Click the button!");
+    }
 
 
-function greetuser(name) {
-    // This function returns another function that greets the user
-    return function() {
-        console.log("hello, " + name);
-    };
-    // The inner function has access to the `name` variable from the outer function's scope
-}
+    console.log("Hi!");
 
-const greetalice = greetuser("alice");
-greetalice();
+
+    setTimeout(timeout, 1000);
+
+
+    console.log("Welcome to loupe.");
+
+    
+    let c = 0;
+    // 3-4s
+    for (let i = 0; i<10000000000; i++) {
+    c = c + 1;
+    }
+    console.log("Expensive operation done");
+
 
 
 
